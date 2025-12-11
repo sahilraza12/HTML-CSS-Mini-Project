@@ -1,0 +1,50 @@
+.card{
+    background-color: white;
+    border: solid black;
+    width:600px;
+    height: 400px;
+    padding:10px;
+    text-align: center;
+    margin-left: 100px;
+    margin-top:100px;
+    transition : all 0.8s ease; 
+}
+.card:hover{
+    background-color: blueviolet;
+    box-shadow: 0 0 8px rgba(255,0,0,0.9);
+    transform: translate(-5px);
+    transform: scale(1.1);
+}
+.profile-img{
+    height: 100px;
+    width:100px;
+    object-fit: cover; /*photo pichke na */
+    border-radius: 50%;
+    border: 3px solid transparent;
+    transition: transform 0.5s ease;
+}
+
+.profile-img:hover{
+    transform : scale(1.1);
+    border-color: rgb(255, 246, 246);
+    cursor:pointer;
+     box-shadow: 0 0 15px rgba(255,0,0,0.5);
+}
+.button {
+    margin:5px;
+    padding: 8px 15px;
+    cursor: pointer;
+    transition : all 0.3s ease;
+}
+.btn-primary:hover { 
+    background-color: rgb(10, 10, 35);
+    color: white;
+    transform: translateY(-3px);
+    box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+    cursor: pointer;
+}
+.btn-secondary:hover {
+    background-color: lightgray;
+    transform: translateY(-3px);
+    cursor: pointer;
+}
