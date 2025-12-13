@@ -27,3 +27,18 @@ A clean, professional profile card design with interactive hover effects.
 
 ### 👨‍💻 Author
 **Sahil Raja** *MERN Stack Learner & Aspiring Developer* 🚀
+
+---
+
+## 📂 Project 2: Modern Login Form 🔐
+A responsive login interface with input focus states and floating layout.
+
+### ✨ Key Features
+- **Form Handling:** Proper use of `<form>`, `<input>`, and labels.
+- **UX Enhancements:** Blue border highlight on input focus (Accessibility).
+- **Navigation:** Linked multiple pages using Anchor (`<a>`) tags.
+- **Styling:** Card layout with soft shadows and rounded corners.
+
+### 🛠️ Tech Stack
+- **HTML5 Forms**
+- **CSS3** (Pseudo-classes `:focus`, `:hover`)
