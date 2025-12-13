@@ -48,3 +48,67 @@
     transform: translateY(-3px);
     cursor: pointer;
 }
+.login-card{
+    background-color: white;
+    padding: 20px;
+    max-width: 400px;
+    border-radius: 15px;
+    box-shadow: 0 12px 20px rgba(0,0,0,0.3);
+    text-align: center;
+}
+.login-card h2{
+    margin-bottom: 10px;
+    color: #333;
+}
+.login-card p{
+    color: #666;
+    margin-bottom: 30px;
+}
+.input-grp{
+    text-align: left;
+    margin-bottom: 15px;
+}
+.input-grp label{
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: #555;
+    font-size: 14px;
+}
+input{
+    width: 100%;
+    padding: 10px;
+    padding-right: 2px;
+    border-radius: 8px;
+    transition: all 0.3s ease;
+    font-size: 14px;
+}
+input:focus{
+    border-color: #007bff;
+    outline: none;
+    box-shadow: 0 0 20px rgba(0,123,255,0.2);
+}
+.btn-grp{
+    width: 100%;
+    padding: 12px;
+    background-color: #007bff;
+    color: white;
+    border-radius: 8px;
+    border: none;
+    font-size: 15px;
+    font-weight: bold;
+    margin-top: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+.btn-grp:hover{
+    background-color:#0056b3;
+}
+.anc{
+    color: #007bff; 
+    background-color: #333;
+    text-decoration: none;
+}
+.link{
+    margin-top: 15px;
+}
