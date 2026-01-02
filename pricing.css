@@ -1,0 +1,44 @@
+.pricing-container{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+
+body {
+    font-family: sans-serif;
+    background-color: f4f4f4;
+}
+
+.card{
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    padding : 20px;
+    width: 250px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+button{
+    padding : 10px 20px;
+    border: non;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 10px;
+}
+
+.primary{
+    background-color: #0d4178;
+    color: white;
+}
+
+.secondary{
+    background-color: #6c757d;
+    color: white;
+}
+.tertiary{
+    background-color: rgb(81, 15, 15);
+    color: white;
+}
